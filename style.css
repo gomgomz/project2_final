@@ -47,7 +47,7 @@ color: #C3CB98;
 
     font-size: 1rem;
     align-items: center;
-    display: none;
+    /* display: none; */
 }
 
 
@@ -182,9 +182,10 @@ background-color: white;
 
 /* ****************about page*************** */
 .family1{
-
+display: block;
     
 }
+
 .family2{
 
     display: none;
@@ -297,11 +298,26 @@ height: 10vh;
 
 }
 
+.mag_glass{
+
+width: 4vw;
+height: 6vh;
+background-position: center center;
+background-size:50px ;
+
+}
+
 .links{
 
     font-size: 1rem;
     align-items: center;
     display: block;
+}
+
+.logo{
+position: relative ();
+float: right;
+
 }
 
 .flex-img{
@@ -329,13 +345,16 @@ margin: 1%;
 }
 
 .family2{
+    flex-wrap: wrap;
+    flex-direction: column;
     display: block;
-    flex-direction: row;
+    /* flex-direction: row; */
+    align-items: center;
 }
 
 .about_1{
 
-    font-size: 2rem;
+    font-size: 150%;
 }
 
 .about_picture1{
@@ -347,7 +366,7 @@ height: 30vh;
 
 .about_3{
 
-    font-size: 2rem;
+    /* font-size: 2rem; */
 }
 
 .about_picture2{
