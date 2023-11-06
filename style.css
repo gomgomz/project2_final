@@ -5,6 +5,8 @@ padding: 0;
 
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@500&family=Handjet:wght@600&family=Inter:wght@100&family=Poor+Story&display=swap');
+
 image{max-width: 50%;
     max-height: 50%
     }
@@ -179,10 +181,17 @@ background-color: white;
 
 
 /* ****************about page*************** */
+.family1{
 
+    
+}
+.family2{
 
+    display: none;
+}
 .about_1{
     display: flex;
+    flex-direction: column;
     width: 100vw;
     height: 50vh;
     background-color: white;
@@ -203,15 +212,19 @@ background-color: white;
     width: 50vw;
     height: 40vh;
     margin: auto;
+    font-family: 'inter','wght',sans-serif;
     
     
 }
 
 .about_2{
 display: flex;
+
 width: 100vw;
-height: 50vh;
+height: 20vh;
 background-color: #C3CB98;
+margin-top: 5%;
+margin-bottom: 5%;
 
 
 }
@@ -222,6 +235,7 @@ margin: auto;
 width: 50vw;
 height: 33vh;
 background-color: white;
+margin-left: 3%;
 
 
 
@@ -229,6 +243,7 @@ background-color: white;
 
 .about_3{
 display: flex;
+flex-direction: column-reverse;
 width: 100vw;
 height: 50vh;
 background-color: white;
@@ -308,6 +323,16 @@ margin: 1%;
 
 /* *************about page desktop********** */
 
+.family1{
+
+    display: none;
+}
+
+.family2{
+    display: block;
+    flex-direction: row;
+}
+
 .about_1{
 
     font-size: 2rem;
@@ -344,3 +369,4 @@ margin-top: 1%;
 
 }
 
+}
